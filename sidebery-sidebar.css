@@ -1,0 +1,28 @@
+#root[data-style="auto"] {
+  --bg: #1c1b22;
+}
+
+.PinnedDock {
+  background : #1c1b22;
+  box-shadow: none !important;
+}
+
+.NavigationBar {
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #212029;
+}
+
+.TabsPanel .container {
+  box-shadow: inset 0 1px 0 0 #212029;
+}
+
+.t-box .title {
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  color: #fff;
+}
+
+.panel-btn:nth-last-child(2) {    
+  margin-left: auto;
+}
