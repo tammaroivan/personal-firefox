@@ -1,0 +1,12 @@
+@import url("imported/window_control_placeholder_support.css");
+@import url("imported/hide_tabs_toolbar.css");
+
+#sidebar-header {
+  display: none;
+}
+
+#tabbrowser-tabs,
+#new-tab-button,
+#alltabs-button {
+  display: none;
+}

@@ -1,0 +1,7 @@
+.devtools-monospace {    
+  font-family: Consolas, monospace !important;
+}
+
+:root {
+  --theme-code-font-size: 13px !important;
+}
