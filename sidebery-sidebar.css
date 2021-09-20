@@ -13,13 +13,19 @@
   border-top: 1px solid #212029;
 }
 
-.TabsPanel .container {
-  box-shadow: inset 0 1px 0 0 #212029;
+.Tab[data-active] {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.Tab .ctx {
+  width: 3px;
 }
 
 .t-box .title {
   font-size: 12px;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.12px;
   color: #fff;
 }
 
